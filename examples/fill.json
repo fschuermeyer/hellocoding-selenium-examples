@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Hans",
+        "thema": "Python CSV Erstellen",
+        "discord": "hans#0000",
+        "email": "hans@hellocoding.de"
+    },
+    {
+        "name": "Max",
+        "thema": "Python JSON Erstellen",
+        "discord": "max#0000",
+        "email": "max@hellocoding.de"
+    },
+    {
+        "name": "Tim",
+        "thema": "Python XML Erstellen",
+        "discord": "tim#0000",
+        "email": "tim@hellocoding.de"
+    }
+]

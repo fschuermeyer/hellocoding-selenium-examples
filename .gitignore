@@ -1,0 +1,4 @@
+**/*.log
+*.log
+driver
+.DS_Store
