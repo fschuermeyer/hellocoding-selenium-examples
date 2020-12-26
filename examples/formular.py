@@ -8,7 +8,8 @@ import os
 import json
 from time import sleep
 
-os.chdir(os.path.dirname(os.path.abspath(__file__))) # Current Working Directionary auf das Aktuelle Script Setzen
+# Current Working Directory auf den Pfad des aktuellen Skripts setzen
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 driver = webdriver.Firefox(executable_path='../driver/geckodriver')
 

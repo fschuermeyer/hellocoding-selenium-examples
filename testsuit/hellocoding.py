@@ -1,7 +1,6 @@
 # Imports für die Test
 import unittest
 import HtmlTestRunner
-import time
 import os
 
 from selenium import webdriver
@@ -11,7 +10,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
-os.chdir(os.path.dirname(os.path.abspath(__file__))) # Current Working Directionary auf das Aktuelle Script Setzen
+# Current Working Directory auf den Pfad des aktuellen Skripts setzen
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 class HelloCodingTestSuit(unittest.TestCase):
     baseUrl= "https://hellocoding.de"
