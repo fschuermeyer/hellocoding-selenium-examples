@@ -14,7 +14,7 @@ from selenium.common.exceptions import TimeoutException
 os.chdir(os.path.dirname(os.path.abspath(__file__))) # Current Working Directionary auf das Aktuelle Script Setzen
 
 class HelloCodingTestSuit(unittest.TestCase):
-    baseUrl="https://hellocoding.de"
+    baseUrl= "https://hellocoding.de"
     sitemapUrl = "https://www.hellocoding.de/sitemap"
 
     def setUp(self):
